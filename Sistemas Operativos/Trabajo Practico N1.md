@@ -237,4 +237,4 @@ La interacción se modela de la siguiente manera: programas de usuario ↔ micro
 - **Para el usuario:**
     - Ejecutar múltiples SO en la misma máquina.
     - Aislamiento de aplicaciones (seguridad).
-    - Portabilidad (ej. usar Windows y Linux en un mismo hardware).
+    - Portabilidad (ej. usar Windows y Linux en un mismo hardware). 

@@ -1,4 +1,6 @@
 {
   "newFileLocation": "folder",
-  "newFileFolderPath": "Atachments"
+  "newFileFolderPath": "",
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true
 }

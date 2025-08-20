@@ -8,20 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "32d355951b456dd5",
+            "id": "e458d61d07574445",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/Trabajo Practico N1.md",
+                "file": "Base de Datos/Clase Introducción a la Materia 19-8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trabajo Practico N1"
+              "title": "Clase Introducción a la Materia 19-8"
+            }
+          },
+          {
+            "id": "a01ba3f5ef3d4e71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Base de Datos/Clase Introducción a la Materia 19-8.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase Introducción a la Materia 19-8"
+            }
+          },
+          {
+            "id": "fc12ee5431f0be62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Base de Datos/Clase Introducción a la Materia 19-8.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase Introducción a la Materia 19-8"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/Trabajo Practico N1.md",
+                "file": "Base de Datos/Clase Introducción a la Materia 19-8.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Trabajo Practico N1"
+              "title": "Outline of Clase Introducción a la Materia 19-8"
             }
           }
         ],
@@ -160,6 +189,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -168,16 +198,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32d355951b456dd5",
+  "active": "fc12ee5431f0be62",
   "lastOpenFiles": [
-    "Sistemas Operativos/Clase Introduccion a la Materia 18-8.md",
+    "Base de Datos/Lectura Opcional The worlds of database systems.md",
+    "Base de Datos/Clase Introducción a la Materia 19-8.md",
+    "Untitled.canvas",
     "Sistemas Operativos/Trabajo Practico N1.md",
+    "Sistemas Operativos/Clase Introduccion a la Materia 18-8.md",
+    "Atachments/{533F3F0D-46C1-4F8D-84E4-A010043C4FC5}.png",
+    "Base de Datos/Lectura adicional sugerida.md",
+    "Atachments/Pasted image 20250819170543.png",
+    "Atachments/Pasted image 20250819164541.png",
+    "Atachments/Pasted image 20250819163416.png",
+    "Atachments/Pasted image 20250819161408.png",
+    "Atachments/Pasted image 20250819155000.png",
+    "Atachments/Pasted image 20250819154433.png",
+    "Atachments/Pasted image 20250819153612.png",
+    "Atachments/Pasted image 20250819150814.png",
     "Atachments/Pasted image 20250818110702.png",
-    "Atachments/Pasted image 20250818105139.png",
-    "Atachments/Pasted image 20250818103409.png",
-    "Atachments/Pasted image 20250818102954.png",
-    "Atachments/Pasted image 20250818102741.png",
-    "Atachments",
-    "Untitled.canvas"
+    "Atachments"
   ]
 }
