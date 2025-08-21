@@ -8,49 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e458d61d07574445",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Base de Datos/Clase Introducción a la Materia 19-8.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase Introducción a la Materia 19-8"
-            }
-          },
-          {
-            "id": "a01ba3f5ef3d4e71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Base de Datos/Clase Introducción a la Materia 19-8.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase Introducción a la Materia 19-8"
-            }
-          },
-          {
             "id": "fc12ee5431f0be62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Base de Datos/Clase Introducción a la Materia 19-8.md",
+                "file": "Sistemas Operativos/Trabajo Practico N1 OS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase Introducción a la Materia 19-8"
+              "title": "Trabajo Practico N1 OS"
+            }
+          },
+          {
+            "id": "4a91195c6d744279",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Metodos Formales/Clase introducción a la Materia 21-8.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase introducción a la Materia 21-8"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base de Datos/Clase Introducción a la Materia 19-8.md",
+                "file": "Sistemas Operativos/Clase Estructura del sistema operativo 20-8.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Clase Introducción a la Materia 19-8"
+              "title": "Outline of Clase Estructura del sistema operativo 20-8"
             }
           }
         ],
@@ -185,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,24 +185,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc12ee5431f0be62",
+  "active": "8b7f680f8c0adab9",
   "lastOpenFiles": [
-    "Base de Datos/Lectura Opcional The worlds of database systems.md",
-    "Base de Datos/Clase Introducción a la Materia 19-8.md",
-    "Untitled.canvas",
-    "Sistemas Operativos/Trabajo Practico N1.md",
+    "Atachments/Pasted image 20250821160844.png",
+    "Atachments/Pasted image 20250821160758.png",
+    "Metodos Formales/Clase introducción a la Materia 21-8.md",
+    "Atachments/Pasted image 20250821160710.png",
+    "Atachments/Pasted image 20250821160511.png",
+    "Sistemas Operativos/Trabajo Practico N1 OS.md",
+    "Atachments/Pasted image 20250820184318.png",
+    "Atachments/Pasted image 20250820184303.png",
+    "Atachments/Pasted image 20250820184215.png",
+    "Atachments/Pasted image 20250820184157.png",
+    "Sistemas Operativos/Clase Estructura del sistema operativo 20-8.md",
+    "Atachments/Pasted image 20250820184339.png",
     "Sistemas Operativos/Clase Introduccion a la Materia 18-8.md",
-    "Atachments/{533F3F0D-46C1-4F8D-84E4-A010043C4FC5}.png",
+    "Base de Datos/Lectura Opcional The worlds of database systems.md",
+    "Atachments/Pasted image 20250820183309.png",
+    "Atachments/Pasted image 20250820182512.png",
+    "Base de Datos/Clase Introducción a la Materia 19-8.md",
+    "Base de Datos/Documuento.md",
+    "Base de Datos/Trabajo Practico N1 BD.md",
+    "Untitled.canvas",
     "Base de Datos/Lectura adicional sugerida.md",
-    "Atachments/Pasted image 20250819170543.png",
-    "Atachments/Pasted image 20250819164541.png",
-    "Atachments/Pasted image 20250819163416.png",
-    "Atachments/Pasted image 20250819161408.png",
-    "Atachments/Pasted image 20250819155000.png",
-    "Atachments/Pasted image 20250819154433.png",
-    "Atachments/Pasted image 20250819153612.png",
-    "Atachments/Pasted image 20250819150814.png",
-    "Atachments/Pasted image 20250818110702.png",
     "Atachments"
   ]
 }

@@ -71,7 +71,6 @@ provee una gran capacidad de almacenaje no volátil.
 **Discos Magnéticos**: 
 La superficie del disco está logicamente dividida en tracks (pistas), los cuales están subdivididas en sectores. 
 El controlador de disco determina la interacción lógica entre el dispositivo y la computadora
-
 ## Dispositivos de Almacenaje - Jerarquía
 
 ![[Pasted image 20250818103248.png]]
