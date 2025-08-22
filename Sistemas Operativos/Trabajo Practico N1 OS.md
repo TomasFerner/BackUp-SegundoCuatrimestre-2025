@@ -1,6 +1,7 @@
 # Problemas: Conceptos Generales
 Temas Necesarios:
 	[[Clase Introduccion a la Materia 18-8]]
+	[[Clase Estructura del sistema operativo 20-8]]
 ## 1. ¿Cuales son las dos funciones principales de un Sistema Operativo?
 
 Las 2 funciones principales del sistema operativo son:

@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "98f0ff941cfa03b2",
+        "id": "aa90485699131195",
         "type": "tabs",
         "children": [
           {
-            "id": "fc12ee5431f0be62",
+            "id": "405860dbb0624d82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/Trabajo Practico N1 OS.md",
+                "file": "Base de Datos/Clase Continuación Introducción 22-8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trabajo Practico N1 OS"
-            }
-          },
-          {
-            "id": "4a91195c6d744279",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Metodos Formales/Clase introducción a la Materia 21-8.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase introducción a la Materia 21-8"
+              "title": "Clase Continuación Introducción 22-8"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/Clase Estructura del sistema operativo 20-8.md",
+                "file": "Base de Datos/Clase Continuación Introducción 22-8.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Clase Estructura del sistema operativo 20-8"
+              "title": "Outline of Clase Continuación Introducción 22-8"
             }
           }
         ],
@@ -171,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,23 +171,24 @@
   },
   "active": "8b7f680f8c0adab9",
   "lastOpenFiles": [
-    "Atachments/Pasted image 20250821160844.png",
-    "Atachments/Pasted image 20250821160758.png",
-    "Metodos Formales/Clase introducción a la Materia 21-8.md",
-    "Atachments/Pasted image 20250821160710.png",
-    "Atachments/Pasted image 20250821160511.png",
-    "Sistemas Operativos/Trabajo Practico N1 OS.md",
-    "Atachments/Pasted image 20250820184318.png",
-    "Atachments/Pasted image 20250820184303.png",
-    "Atachments/Pasted image 20250820184215.png",
-    "Atachments/Pasted image 20250820184157.png",
-    "Sistemas Operativos/Clase Estructura del sistema operativo 20-8.md",
-    "Atachments/Pasted image 20250820184339.png",
-    "Sistemas Operativos/Clase Introduccion a la Materia 18-8.md",
-    "Base de Datos/Lectura Opcional The worlds of database systems.md",
-    "Atachments/Pasted image 20250820183309.png",
-    "Atachments/Pasted image 20250820182512.png",
+    "Atachments/Pasted image 20250822182248.png",
+    "Atachments/Pasted image 20250822182002.png",
+    "Atachments/Pasted image 20250822181614.png",
+    "Atachments/Pasted image 20250822181556.png",
+    "Atachments/Pasted image 20250822181157.png",
+    "Atachments/Pasted image 20250822181142.png",
+    "Atachments/Pasted image 20250822180250.png",
+    "Atachments/Pasted image 20250822180156.png",
+    "Atachments/Pasted image 20250822180100.png",
+    "Atachments/Pasted image 20250822175952.png",
+    "Atachments/Pasted image 20250822175630.png",
+    "Base de Datos/Clase Continuación Introducción 22-8.md",
     "Base de Datos/Clase Introducción a la Materia 19-8.md",
+    "Sistemas Operativos/Trabajo Practico N1 OS.md",
+    "Sistemas Operativos/Clase Estructura del sistema operativo 20-8.md",
+    "Base de Datos/Lectura Opcional The worlds of database systems.md",
+    "Metodos Formales/Clase introducción a la Materia 21-8.md",
+    "Sistemas Operativos/Clase Introduccion a la Materia 18-8.md",
     "Base de Datos/Documuento.md",
     "Base de Datos/Trabajo Practico N1 BD.md",
     "Untitled.canvas",

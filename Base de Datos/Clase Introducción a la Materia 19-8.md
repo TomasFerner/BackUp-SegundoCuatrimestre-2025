@@ -220,6 +220,8 @@ El administrador de base de datos (ABD/DBA) es la persona que cumple el rol de r
 
 ## Modelo Entidad-Relacion en profundidad
 
+==El modelo de datos debería ser “general” y “completo”, idealmente no se tendría que modificar con frecuencia.==
+
 Modelo Entidad Relación (MER) es un modelo que se utiliza para alcanzar el diseño conceptual de un negocio o empresa. Se basa en la percepción del mundo real como la colección de: 
 	• Objetos básicos llamados **entidades**. 
 	• Y **relaciones** entre las entidades.
@@ -332,3 +334,64 @@ Sean los conjuntos entidad:
 
 La relación **rinde-examen** asocia a las entidades alumno con las entidades de materia que rinde. • Los atributos **fecha y nota** describen a Rinde, quedando definida como: 
 	**rinde-examen** (alumno, materia, Fecha, Nota)
+
+### Relaciones ternarias
+
+![[../Atachments/Pasted image 20250822161829.png]]
+
+En el ejemplo 
+	- Dados una entidad **empleado** y una **sucursal**, el **empleado** trabaja en un único **area** en dicha **sucursal** . 
+	- Dados un **empleado** y un **area** , el **empleado** trabaja en “muchas” **sucursales** en el mismo **area** . 
+	- Dados una **sucursal y una **area** , en la **sucursal** “muchos” **empleados** trabajan en dicha **area**.
+
+## Diagrama Entidad Relación Extendido (Conceptos avanzados)
+
+### Especialización
+
+concepto que define a un conjunto entidad que puede contener subconjuntos propios de entidades diferentes entre si (diseño top-down), es el proceso de indicar subgrupos en un conjunto de entidades.
+
+### Generalización
+
+concepto que determina que a partir de distintos subgrupos de conjunto entidad, puede obtenerse un super conjunto entidad más general (diseño bottom-up), es el proceso de crear un (super)conjunto de entidades a partir de conjuntos de entidades particulares
+
+**Ambas se representan con la relación distinguida “IS-A” o ES-UN”.**
+
+![[../Atachments/Pasted image 20250822163200.png]]
+
+### Restricciones de Diseño para ES-UN
+
+**Restricciones de completitud**: especifican si una entidad en un conjunto de entidades de nivel más alto debe pertenecer al menos a un conjunto de entidades de nivel más bajo, la restricción puede ser Total o Parcial 
+	• Para el ejemplo de cuentas, una cuenta es de ahorro o cheque **(total)**
+
+**Restricciones de pertenencia**: Sobre los conjuntos entidad de nivel inferior (especialización):
+• **Disjuntos**: cada entidad pertenece, a lo sumo, a un conjunto de entidades de nivel inferior. 
+• **Solapados**: la misma entidad puede pertenecer a más de un conjunto de entidades de nivel inferior. 
+	Ejemplo: una cuenta puede ser de ahorros o de cheques, pero no ambos (disjunto).
+
+### Agregación
+
+Una limitación del modelo entidad relación original es que no es posible expresar relaciones con relaciones.
+
+Es la abstracción por la cual una relación junto con las entidades que vincula, se trata como si fuera un nuevo **conjunto entidad**.
+
+El nuevo conjunto entidad que resulta de la agregación se considera como cualquier otro conjunto entidad.
+
+![[../Atachments/Pasted image 20250822163953.png]]
+
+- Se requiere de R1 para definir R2 . 
+- Pueden existir elementos de R1 que no estén en la relación R2 pero no a la inversa.
+
+![[../Atachments/Pasted image 20250822164259.png]]
+
+¿Tiene sentido mantener ambas relaciones?
+
+![[../Atachments/Pasted image 20250822164339.png]]
+
+## Guía básica para construir un MER
+
+1. Identificar las **entidades** y definir los **conjuntos de entidades**.
+	   Identificar los **atributos que describen las entidades**.
+2. Identificar las **relaciones** entre las entidades. 
+	   Identificar **atributos asociados con las relaciones** (si existen). 
+3. Analizar y definir la **cardinalidad** de las relaciones. 
+4. Identificar la oportunidad de **usar los conceptos más avanzados** (entidades débiles, generalización-especialización, agregación).
