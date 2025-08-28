@@ -17,9 +17,9 @@ Conceptos MER:
 ### Entidades Débil
 
 Sea A un conjunto entidad débil con n atributos descriptivos a1 ,a2 ,…,an . 
- Sean los atributos a1 ,a2 ,…,an los discriminadores del conjunto A. 
- Sea B el conjunto entidad fuerte que domina a A con atributos b1 ,b2 ,…,bm , y sea b1 ,b2 ,…,bj los atributos que forman la llave primaria para B 
- La “estructura” de la tabla para la entidad débil A constará de n+j columnas:
+- Sean los atributos a1 ,a2 ,…,an los discriminadores del conjunto A. 
+- Sea B el conjunto entidad fuerte que domina a A con atributos b1 ,b2 ,…,bm , y sea b1 ,b2 ,…,bj los atributos que forman la llave primaria para B 
+-  La “estructura” de la tabla para la entidad débil A constará de n+j columnas:
 
 ![[../Atachments/Pasted image 20250822175608.png]]
 
@@ -90,3 +90,53 @@ Entidades y Relaciones:
 ![[../Atachments/Pasted image 20250822182248.png]]
 **en las relaciones los atributos llave son los atributos subrayados**
 **en las entidades los atributos fuertes son los subrayados**
+
+## Atributos Llave para Conjuntos Relación
+
+### Restricciones 
+En el modelo de datos de una empresa buscamos expresar ciertas restricciones que garanticen la calidad del contenido de su base de datos. 
+
+Las herramientas que usaremos para expresar las restricciones son: 
+1. **Cardinalidad** de Mapeos 
+2. **Atributos Llaves** (o claves). 
+	•Llave de entidad. 
+	• Llave de relación
+
+![[../Atachments/Pasted image 20250826144136.png]]
+
+### Llaves
+
+Se entiende llave como una especie de puntero que te lleva a lo que esta referenciando
+
+**Superllave**: es uno o más atributos del conjunto entidad que distingue unívocamente a un elemento del conjunto de entidad. 
+- Nro-Seguridad-Social es superllave del conjunto de entidades Cliente. 
+- Nro-Seguridad-Social y Nombre-Cliente es superllave del conjunto de entidades Cliente. 
+
+**Llave Candidata**: es una superllave que no contiene un subconjunto propio que sea superllave. Es decir, es una superllave minima. 
+
+**Llave Primaria**: es una llave candidata elegida por el diseñador de la base de datos.
+
+### Llaves del conjunto relacion
+
+Desde un punto de vista conceptual las relaciones del conjunto relación son distinguibles y las diferencias se expresan en términos de sus atributos.
+- **Superllave** del conjunto relación atributo/s que distinguen unívocamente a una relación del conjunto. 
+- **Llave candidata** del conjunto relación es una superllave mínima. 
+- **Llave primaria** es una llave candidata que el diseñador elige como principal.
+### Resumen 
+- La llave primaria para un conjunto de relación / conjunto entidad siempre está definida entre sus atributos y es independiente de la instancia en un momento. 
+- Conjunto entidad débil (ED), cuya llave es Llave primaria(EF)  Discriminador(ED) 
+- Conjunto relación m:n sin atributos propios: se define como la unión de Llave primaria(E) de las entidades que vincula. 
+- Conjunto relación m:1 sin atributos propios: se define como la Llave primaria(E) de las entidades que es el muchos en la relación. 
+- Conjunto relación 1:1 sin atributos propios: se define como la Llave primaria(E) de cualquiera de las entidades, ambas son llave candidata. 
+- Si el conjunto de relación tiene atributos propios la selección de la llave dependerá de la semántica y restricciones que se quieran modelar.
+
+### Llaves Foráneas
+
+Es un tipo de restricción que exige que el valor que está en una relación r debe estar en otra relación s 
+• r se denomina Referencing relation 
+• s se denomina Referenced relation 
+Ejemplo: el valor del atributo {ISBN} en la relación escrito_por debe estar en la relación libro y el valor {ID} en la relación escrito_por debe estar en la relación libro
+
+![[../Atachments/Pasted image 20250826145452.png]]
+
+![[../Atachments/Pasted image 20250826145439.png]]

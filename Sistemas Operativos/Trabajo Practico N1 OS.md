@@ -9,6 +9,7 @@ Las 2 funciones principales del sistema operativo son:
 Ejecutar los programas del usuario y permitir la solución de problemas del usuario mas fácilmente, utilizando el hardware de manera eficiente y haciendo un uso conveniente del sistema de la computadora, decide sobre los requerimientos conflictivos para asegurar la eficiencia y el uso imparcial de los recursos disponibles
 
 Se utiliza como programa de control supervisando la ejecución de los programas, evitando errores y usos indebidos del hardware de la computadora
+
 ## 2. Cite varios SO que conozca. ¿Puede clasificarlos de alguna manera? ¿Cuales son los diferentes criterios que utilizaría para la clasificación de los SO?
 
 Sistemas operativos que conozco: Windows, MacOS, Linux, android, Unix, Director

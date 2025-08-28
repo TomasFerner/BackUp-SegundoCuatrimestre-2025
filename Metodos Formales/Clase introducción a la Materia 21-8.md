@@ -7,8 +7,6 @@
 Logica de primer orden es el calculo de predicado
 
 El problema de el calculo de predicados es que en su completitud no es computable 
-En la lógica de primer orden las cosas que cuantificamos son átomos, estos mismos no tienen identidad, para el calculo de predicado todos los átomos son iguales
-
 Como en un programa lo primero que queremos saber es con el tipo de datos que estamos trabajando, necesitamos poder escribir estas restricciones de manera lógica
 
 Ejemplo: 
