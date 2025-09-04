@@ -1,9 +1,8 @@
 # Introducción
 ## Que es un sistema operativo
-Un programa que **actua como intermediario** entre el usuario de una computadora y el hardware de la computadora
+Un programa que **actúa como intermediario** entre el usuario de una computadora y el hardware de la computadora
 
 Es "El programa que ejecuta todo el tiempo en la computadora" es el **kernel** o **núcleo**, no hay una clara definición de que es, se suele definir mas como lo que hace en si, todo lo demás es un programa de sistema o un programa de aplicación
-
 
 ## Objetivo del sistema operativo
 El objetivo del OS es ejecutar los programas de usuario y permitir la solución de problemas del usuario mas fácilmente, uso de hardware de la computadora de manera eficiente

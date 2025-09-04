@@ -198,6 +198,10 @@ Ejemplo: Todos los autores periodistas del libro identificado como book
 
 ![[../Atachments/Pasted image 20250828153449.png]]
 
+### Operadores lógicos
+
+![[../Atachments/Pasted image 20250828160907.png]]
+
 ### Producto
 
 p -> q 
@@ -245,6 +249,65 @@ let mateo = one Autor { escritoPor.mateo }//Alternativa equivalente
 ^ r intuitivamente es la aplicación recursiva del operador join entre la relación y sí misma (hasta que no se agreguen tuplas) ^ r = r + r.r + r.r.r + …
 
 ![[../Atachments/Pasted image 20250828154249.png]]
+
+### Clausura Reflexivo-Transitiva
+
+![[../Atachments/Pasted image 20250828160121.png]]
+
+Intuitivamente es la clausura transitiva más el conjunto identidad
+![[../Atachments/Pasted image 20250828160140.png]]
+
+![[../Atachments/Pasted image 20250828160150.png]]
+
+### Restricciones de Dominio y Rango
+
+Estos operadores se utilizan para filtrar relaciones a un dominio o rango dados 
+
+Si s es un conjunto y r una relación entonces 
+	s <: r contiene las tuplas de r que **comienzan** con elementos que están en el conjunto s
+	r :> s contiene las tuplas de r que **terminan** con elementos que están en el conjunto s
+
+### Override
+
+**p ++ q**
+
+p y q son dos relaciones de aridad dos o más • El resultado es similar a la unión de p y q, a excepción de que las tuplas de q pueden reemplazar a las tuplas de p. Cada tupla en p que hace match con una tupla de q (comienza con el mismo elemento) es descartada p
+**++ q = p – (domain(q) <: p) + q**
+
+Ejemplo: viejaDireccion = { (N0,DO), (N1,D1), (N1,D2) } 
+nuevaDireccion = { (N1,D4), (N3,D3) }
+
+**viejaDireccion + nuevaDireccion** = {(N0,DO), (N1,D1), (N1,D2), (N1,D4), (N3,D3) }
+**viejaDireccion ++ nuevaDireccion** = { (N0,D0), (N1,D4), (N3,D3) }
+
+### Predicados - Funciones
+
+Pueden utilizarse como “macros” 
+- Pueden nombrarse y utilizarse en diferentes contextos (hechos, aserciones, condiciones del comando run) 
+- Pueden ser parametrizadas 
+- Se utilizan para factorizar comportamiento común 
+Predicados 
+	Capturan restricciones que el diseñador no desea guardar como hechos 
+	Restricciones que se reúsan en varios contextos
+Funciones 
+	Expresiones que se reúsan en diferentes contextos
+
+### Funciones
+
+Es una expresión nombrada, con cero o más argumentos y provee un resultado
+
+Ejemplo: 
+“Los libros que escribió un autor” 
+fun escribio |a: Autor|: set Libro { 
+	{l: Libro | l in escritoPor.a } }
+
+### Predicados
+
+Es una restricción nombrada, con cero o más argumentos Los predicados no se incluyen en el análisis a menos que sean referenciados en los esquemas que se analizan (run, aserción, hecho) 
+
+Ejemplo: 
+“¿Es autor de un libro?” 
+pred esAutorDe |a: Autor, l:Libro| { a in l.escritoPor }
 ## Buscando instancias del modelo
 
 El comando **run** se utiliza para indicarle al analizador de Alloy, que genere una instancia del modelo 
